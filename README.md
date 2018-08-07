@@ -1,4 +1,4 @@
-# List 列表元件開發
+# React Popup Component
 
 ## npm
 ```sh
@@ -10,7 +10,7 @@
   https://github.com/1987showsun/Popup-component-by-react-dev
 ```
 
-## <a href="https://1987showsun.github.io/Popup-component-by-react-dev/index.html#/">Demo</a>
+## <a href="https://1987showsun.github.io/Popup-component-by-react-dev/#/>Demo</a>
 
 ## Ex instructions:
 ```js

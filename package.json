@@ -1,6 +1,6 @@
 {
   "name": "react-popup-beta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "commonjs/index.js",
   "description": "test",
   "author": "showsun",
@@ -11,9 +11,9 @@
     "commonjs": "NODE_ENV_CLOSE_LOG=false NODE_ENV_REDUX_BUILD=false webpack"
   },
   "keywords": [
-    "table",
-    "list",
-    "block list"
+    "popup",
+    "react",
+    "react popup"
   ],
   "dependencies": {
     "babel-plugin-transform-remove-console": "^6.9.4",
