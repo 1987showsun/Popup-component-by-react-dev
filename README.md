@@ -10,7 +10,7 @@
   https://github.com/1987showsun/Popup-component-by-react-dev
 ```
 
-## <a href="https://1987showsun.github.io/Popup-component-by-react-dev/#/>Demo</a>
+## <a href="https://1987showsun.github.io/Popup-component-by-react-dev/#/">Demo</a>
 
 ## Ex instructions:
 ```js
