@@ -28,7 +28,6 @@ export default class Index extends React.Component{
     }
 
     componentDidMount() {
-        //$trigger.addEventListener("click",this.triggerPopup.bind(this));
         this.autoClose();
     }
 

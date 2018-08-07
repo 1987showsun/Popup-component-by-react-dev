@@ -4,10 +4,6 @@ import React from 'react';
 import Popup            from './components/popup';
 import Testform         from './components/form/test';
 
-//Jsons
-import thead                               from './public/json/thead.json';
-import data                                from './public/json/data.json';
-
 export default class Router extends React.Component{
 
     constructor(props){
@@ -62,8 +58,7 @@ export default class Router extends React.Component{
                             effects      = "slider" // fade / slider / zoom
                             autoClose    = "3000"
                         >
-                            {/* show popup content */}
-                            <button>fuck1</button>
+                            show popup content
                         </Popup>
 
                         <Popup 
@@ -75,8 +70,7 @@ export default class Router extends React.Component{
                             }}
                             effects      = "slider" // fade / slider / zoom
                         >
-                            {/* show popup content */}
-                            <button>fuck1</button>
+                            show popup content
                         </Popup>
                     </div>
                 </div>
@@ -90,13 +84,12 @@ export default class Router extends React.Component{
                             className    = "test"
                             windowSet    = "top"
                             addTrigger   = {{
-                                text        : "trigger fade center",
+                                text        : "trigger fade top",
                                 style       : {"width":"123px"}
                             }}
                             effects      = "fade" // fade / slider / zoom
                         >
-                            {/* show popup content */}
-                            <button>fuck1</button>
+                            show popup content
                         </Popup>
 
                         <Popup 
@@ -108,21 +101,19 @@ export default class Router extends React.Component{
                             }}
                             effects      = "fade" // fade / slider / zoom
                         >
-                            {/* show popup content */}
-                            <button>fuck1</button>
+                            show popup content
                         </Popup>
 
                         <Popup 
                             className    = "test"
                             windowSet    = "bottom"
                             addTrigger   = {{
-                                text        : "trigger fade center",
+                                text        : "trigger fade bottom",
                                 style       : {"width":"123px"}
                             }}
                             effects      = "fade" // fade / slider / zoom
                         >
-                            {/* show popup content */}
-                            <button>fuck1</button>
+                            show popup content
                         </Popup>
                     </div>
                 </div>
@@ -136,13 +127,12 @@ export default class Router extends React.Component{
                             className    = "test"
                             windowSet    = "top"
                             addTrigger   = {{
-                                text        : "trigger Zoom center",
+                                text        : "trigger Zoom top",
                                 style       : {"width":"123px"}
                             }}
                             effects      = "zoom" // fade / slider / zoom
                         >
-                            {/* show popup content */}
-                            <button>fuck1</button>
+                            show popup content
                         </Popup>
 
                         <Popup 
@@ -154,23 +144,21 @@ export default class Router extends React.Component{
                             }}
                             effects      = "zoom" // fade / slider / zoom
                         >
-                            {/* show popup content */}
-                            <button>fuck1</button>
+                            show popup content
                         </Popup>
 
                         <Popup 
                             className    = "test"
                             windowSet    = "bottom"
                             addTrigger   = {{
-                                text        : "trigger Zoom center",
+                                text        : "trigger Zoom bottom",
                                 style       : {"width":"123px"}
                             }}
                             effects      = "zoom" // fade / slider / zoom
                             display      = ""
                             returnDisplay= { this.displayReturnSataus.bind(this) }
                         >
-                            {/* show popup content */}
-                            <button>fuck1</button>
+                            show popup content
                         </Popup>
                     </div>
                 </div>

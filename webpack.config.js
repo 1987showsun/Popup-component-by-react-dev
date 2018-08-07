@@ -18,7 +18,7 @@ const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
   inject    : "body"
 });
 
-const contextFilePath    = env.NODE_ENV_REDUX_BUILD=="true"? ""       : "/components/list";
+const contextFilePath    = env.NODE_ENV_REDUX_BUILD=="true"? ""       : "/components/popup";
 const libraryTargetType  = env.NODE_ENV_REDUX_BUILD=="true"? "umd"    : "commonjs2";
 const externalsType      = env.NODE_ENV_REDUX_BUILD=="true"? {}       : {'react': 'commonjs react'};
 const CWP                = env.NODE_ENV_REDUX_BUILD=="true"? [{ from: "./assets", to: "assets" }] : [];
