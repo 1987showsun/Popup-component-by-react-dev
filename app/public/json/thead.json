@@ -1,0 +1,82 @@
+{
+    "test" : [
+        {
+            "title"     : "First Name",
+            "columnKey" : "firstname",
+            "total"     : "Total",
+            "link"      : true,
+            "path"      : "info"
+        },
+        {
+            "title"     : "Last Name",
+            "columnKey" : "lastname"
+        },
+        {
+            "title"     : "salary",
+            "columnKey" : "pay",
+            "total"     : "",
+            "sort"      : true
+        },
+        {
+            "title"     : "Income",
+            "columnKey" : "income",
+            "total"     : "",
+            "sort"      : true
+        },
+        {
+            "title"     : "Age",
+            "columnKey" : "age",
+            "sort"      : true
+        },
+        {
+            "title"     : "Department",
+            "columnKey" : "department"
+        },
+        {
+            "title"     : "Job",
+            "columnKey" : "job",
+            "sort"      : true
+        },
+        {
+            "title"     : "Employee",
+            "columnKey" : "employee_id",
+            "sort"      : true
+        },
+        {
+          "title"       : "Action",
+          "columnKey"   : "action",
+          "action"      : [
+            {
+              "key"   : "edit",
+              "text"  : "",
+              "icon"  : ""
+            },
+            {
+              "key"   : "delete",
+              "text"  : "",
+              "icon"  : ""
+            },
+            {
+              "key"   : "info",
+              "text"  : "",
+              "icon"  : ""
+            }
+          ]
+        }
+    ],
+    "block" : [
+        {
+            "title"     : "Cover",          
+            "columnKey" : "cover",          
+            "link"      : true,             
+            "path"      : "/info/teams"     
+        },
+        {
+            "title"     : "Content",         
+            "columnKey" : "",                
+            "children"  : ["name","name_en"],
+            "link"      : true,              
+            "path"      : "/info/teams"
+        }
+    ]
+}

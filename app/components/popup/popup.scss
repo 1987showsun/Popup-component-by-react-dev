@@ -1,0 +1,161 @@
+.popup-component{
+    .popup-wrap{
+        width       : 100%;
+        display     : flex;
+        z-index     : 10; 
+        position    : fixed;
+        left        : 0px;
+        visibility  : hidden;
+        opacity     : 0;
+        transition  : all ease-in .3s;
+        &.fade{
+            &.top{
+                .popup-wrap-content{
+                    top      : 30px; 
+                }
+            }
+            &.bottom{
+                .popup-wrap-content{
+                    bottom   : 30px; 
+                }
+            }
+        }
+        &.slider{
+            &.top{
+                .popup-wrap-content{
+                    transition  : all ease-out .3s;
+                    top         : -100%; 
+                }
+            }
+            &.center{
+                .popup-wrap-content{
+                    transition  : all cubic-bezier(0.15, 1.79, 0.63, 0.85) 1s;
+                    top         : -100%; 
+                }
+            }
+            &.bottom{
+                .popup-wrap-content{
+                    transition  : all ease-out .3s;
+                    bottom      : -100%; 
+                }
+            }
+        }
+        &.zoom{
+            .popup-wrap-content{
+                transition  : all cubic-bezier(0.15, 1.79, 0.63, 0.85) .5s;
+                transform   : scale(0);
+            }
+            &.top{
+                .popup-wrap-content{
+                    top:30px;
+                }
+            }
+            &.bottom{
+                .popup-wrap-content{
+                    bottom : 30px;
+                }
+            }
+        }
+
+        &.show{
+            visibility : visible;
+            opacity    : 1;
+            &.fade{
+            }
+            &.slider{
+                &.top{
+                    .popup-wrap-content{
+                        top      : 30px; 
+                    }
+                }
+                &.center{
+                    .popup-wrap-content{
+                        top      : 0%; 
+                    }
+                }
+                &.bottom{
+                    .popup-wrap-content{
+                        bottom   : 30px; 
+                    }
+                }
+            }
+            &.zoom{
+                .popup-wrap-content{
+                    transform: scale(1);
+                }
+                &.top{
+                    .popup-wrap-content{
+                        top      : 30px; 
+                        transform: scale(1);
+                    }
+                }
+                &.bottom{
+                    .popup-wrap-content{
+                        bottom   : 30px; 
+                    }
+                }
+            }
+        }
+        .popup-wrap-mask{
+            background      : rgba(0,0,0,.5);
+            position        : absolute;
+            top             : 0px;
+            left            : 0px;
+            z-index         : 1;
+        }
+        .popup-wrap-content{
+            min-width       : 200px;
+            max-width       : 80%;
+            padding         : 10px; 
+            background      : #fff;
+            position        : relative;
+            z-index         : 2;
+            box-shadow      : 0px 0px 10px rgba(0,0,0,.1);
+            border-radius   : 4px;
+            .close{
+                width         : 22px;
+                height        : 22px;
+                display       : flex; 
+                position      : absolute;
+                z-index       : 3;
+                top           : -22px;
+                right         : -22px;
+                font-size     : 1em;
+                align-items   : center;
+                justify-content: center;
+                background     : #fff;
+                border-radius  : 100px;
+                cursor         : pointer;
+            }
+        }
+        &.top{
+            top             : 0px;
+            justify-content : center;
+            &.msg{
+                .popup-wrap-content{
+                    position   : absolute;
+                }
+            }
+        }
+        &.bottom{
+            bottom           : 0px;
+            justify-content  : center;
+            &.msg{
+                .popup-wrap-content{
+                    position   : absolute;
+                }
+            }
+        }
+        &.center{
+            height           : 100%;
+            top              : 0px;
+            left             : 0px;
+            justify-content  : center;
+            align-items      : center; 
+            .popup-wrap-mask{
+                width      : 100%;
+                height     : 100%;
+            }
+        }
+    }
+}
