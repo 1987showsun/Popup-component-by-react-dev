@@ -1,8 +1,8 @@
 import React       from 'react';
 import { FaTimes } from 'react-icons/fa';
+import PerfectScrollbar from '@opuscapita/react-perfect-scrollbar';
 
 import './popup.scss';
-import { setTimeout } from 'timers';
 
 let   closeCount;
 
@@ -77,10 +77,8 @@ export default class Index extends React.Component{
         if( this.props.returnDisplay!=undefined ){
             this.props.returnDisplay(display);
         }
-        console.log(windowSet,display);
         if( windowSet=="center" ){
             if( display=="show" ){
-                console.log('123');
                 document.body.classList.add("overflowHidden");
             }else{
                 document.body.classList.remove("overflowHidden");
@@ -101,7 +99,11 @@ export default class Index extends React.Component{
                         <span className="close" onClick={this.triggerPopup.bind(this,"hide")}>
                             <FaTimes />
                         </span>
-                        {this.props.children}
+                        <div className="popup-wrap-content-in">
+                            <PerfectScrollbar>
+                                {this.props.children}
+                            </PerfectScrollbar>
+                        </div>
                     </div>
                 </div>
             </div>

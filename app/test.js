@@ -42,7 +42,7 @@ export default class Router extends React.Component{
                                 className   : "123"
                             }}
                             effects      = "slider" // fade / slider / zoom
-                            autoClose    = "5000"
+                            //autoClose    = "5000"
                         >   
                             {/* show popup content */}
                             <Testform />
@@ -56,9 +56,76 @@ export default class Router extends React.Component{
                                 style       : {"width":"123px"}
                             }}
                             effects      = "slider" // fade / slider / zoom
-                            autoClose    = "3000"
+                            //autoClose    = "3000"
                         >
-                            show popup content
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
                         </Popup>
 
                         <Popup 
@@ -70,7 +137,7 @@ export default class Router extends React.Component{
                             }}
                             effects      = "slider" // fade / slider / zoom
                         >
-                            show popup content
+                            <div>show popup content</div>
                         </Popup>
                     </div>
                 </div>
@@ -89,7 +156,7 @@ export default class Router extends React.Component{
                             }}
                             effects      = "fade" // fade / slider / zoom
                         >
-                            show popup content
+                            <div>show popup content</div>
                         </Popup>
 
                         <Popup 
@@ -101,7 +168,7 @@ export default class Router extends React.Component{
                             }}
                             effects      = "fade" // fade / slider / zoom
                         >
-                            show popup content
+                            <div>show popup content</div>
                         </Popup>
 
                         <Popup 
@@ -113,7 +180,7 @@ export default class Router extends React.Component{
                             }}
                             effects      = "fade" // fade / slider / zoom
                         >
-                            show popup content
+                            <div>show popup content</div>
                         </Popup>
                     </div>
                 </div>
@@ -132,7 +199,7 @@ export default class Router extends React.Component{
                             }}
                             effects      = "zoom" // fade / slider / zoom
                         >
-                            show popup content
+                            <div>show popup content</div>
                         </Popup>
 
                         <Popup 
@@ -144,7 +211,7 @@ export default class Router extends React.Component{
                             }}
                             effects      = "zoom" // fade / slider / zoom
                         >
-                            show popup content
+                            <div>show popup content</div>
                         </Popup>
 
                         <Popup 
@@ -158,7 +225,13 @@ export default class Router extends React.Component{
                             display      = ""
                             returnDisplay= { this.displayReturnSataus.bind(this) }
                         >
-                            show popup content
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
+                            <div>show popup content</div>
                         </Popup>
                     </div>
                 </div>

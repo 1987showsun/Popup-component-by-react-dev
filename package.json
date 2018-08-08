@@ -1,8 +1,8 @@
 {
   "name": "react-popup-beta",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "commonjs/index.js",
-  "description": "test",
+  "description": "React popup",
   "author": "showsun",
   "license": "ISC",
   "scripts": {
@@ -16,6 +16,7 @@
     "react popup"
   ],
   "dependencies": {
+    "@opuscapita/react-perfect-scrollbar": "^3.0.3",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "babel-preset-stage-2": "^6.24.1",
     "detect-browser-language": "0.0.1",
