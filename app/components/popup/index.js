@@ -43,7 +43,6 @@ export default class Index extends React.Component{
             trigger              : nextProps.trigger        || "",
             addTrigger           : nextProps.addTrigger     || {},
             componentStyle       : nextProps.componentStyle || {},
-            windowSet            : nextProps.windowSet      || "center",
             popupType            : nextProps.type           || "msg",     // msg / form / note / err
             display              : nextProps.display        || "hide",
         })
@@ -73,9 +72,19 @@ export default class Index extends React.Component{
     }
 
     returnDisplayStatus(){
-        const display     = this.state.display;
+        const display   = this.state.display;
+        const windowSet = this.state.windowSet;
         if( this.props.returnDisplay!=undefined ){
             this.props.returnDisplay(display);
+        }
+        console.log(windowSet,display);
+        if( windowSet=="center" ){
+            if( display=="show" ){
+                console.log('123');
+                document.body.classList.add("overflowHidden");
+            }else{
+                document.body.classList.remove("overflowHidden");
+            }
         }
     }
 

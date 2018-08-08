@@ -1,3 +1,9 @@
+body{
+    &.overflowHidden{
+        overflow: hidden;
+    }
+}
+
 .popup-component{
     .popup-wrap{
         width       : 100%;
